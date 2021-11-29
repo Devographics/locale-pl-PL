@@ -197,19 +197,19 @@ translations:
     ###########################################################################
 
     # heatmaps
-    - key: blocks.tools_company_size_heatmap.title
+    - key: blocks.tools_company_size_heatmap
       t: Wykorzystanie Według Rozmiaru Firmy
     - key: blocks.tools_company_size_heatmap.description
       t: |
           Rozkład wykorzystania każdej z technologii wśród odpowiadających, którzy wybrali różne rozmiary firmy.
 
-    - key: blocks.tools_yearly_salary_heatmap.title
+    - key: blocks.tools_yearly_salary_heatmap
       t: Wykorzystanie Według Skali Zarobków
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
           Rozkład wykorzystania każdej z technologii wśród odpowiadających, którzy wybrali różne skale zarobków.
 
-    - key: blocks.tools_years_of_experience_heatmap.title
+    - key: blocks.tools_years_of_experience_heatmap
       t: Wykorzystanie Według Lat Doświadczenia
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
@@ -223,7 +223,7 @@ translations:
       t: GitHub
 
     # tools quadrant
-    - key: blocks.tools_quadrant.title
+    - key: blocks.tools_quadrant
       t: Satysfakcja vs Wykorzystanie
     - key: blocks.tools_quadrant.description
       t: |
@@ -245,19 +245,19 @@ translations:
           (Zwracamy uwagę, że niska ilość użytkowników może być spowodowana albo małą znajomością technologii, albo tym, że wiele osób już z niej korzysta.)
 
     # category other tools
-    - key: blocks.category_other_tools.title
+    - key: blocks.category_other_tools
       t: Inne narzędzia
     - key: blocks.category_other_tools.description
       t: Inne narzędzia w tej kategorii (pole wolne).
 
     # tool experience
-    - key: blocks.tool_experience.title
+    - key: blocks.tool_experience
       t: Doświadczenie z {name}
     - key: blocks.tool_experience.description
       t: Doświadczenie ankietowanych z {name}.
 
     # tool positive/negative split ("marimekko" chart)
-    - key: blocks.tools_experience_marimekko.title
+    - key: blocks.tools_experience_marimekko
       t: Podział Pozytywne/Negatywne
     - key: blocks.tools_experience_marimekko.description
       t: |
@@ -267,7 +267,7 @@ translations:
           Szerokość słupka odpowiada ilości odpowiadających wiedzących o istnieniu danej technologii.
 
     # tools section streams
-    - key: blocks.tools_section_streams.title
+    - key: blocks.tools_section_streams
       t: Doświadczenie na przestrzeni czasu
     - key: blocks.tools_section_streams.description
       t: |
@@ -277,14 +277,14 @@ translations:
           Technologie z danymi tylko z jednego roku nie są uwzględnione.
 
     # tools section overview
-    - key: blocks.tools_section_overview.title
+    - key: blocks.tools_section_overview
       t: Przegląd kategorii
     - key: blocks.tools_section_overview.description
       t: |
           Przegląd opinii na temat badanych technologii. Ciemniejsze segmenty odpowiadają pozytywnym opiniom, jaśniejsze negatywnym odczuciom.
 
     # tools experience ranking
-    - key: blocks.tools_experience_ranking.title
+    - key: blocks.tools_experience_ranking
       t: Rankingi
     - key: blocks.tools_experience_ranking.description
       t: Rankingi wskaźników satysfakcji, zainteresowania, użytkowania i znajomości.
@@ -298,14 +298,14 @@ translations:
           - Znajomość: (**suma** - **nigdy nie słyszał**) / **suma**
 
     # happiness
-    - key: blocks.happiness.title
+    - key: blocks.happiness
       t: Całkowite Zadowolenie
     - key: blocks.happiness.description
       t: |
           W skali od jednego (bardzo niezadowolony) do pięciu (bardzo zadowolony), jak bardzo zadowoleni z obecnego ogólnego stanu tej kategorii są programiści?
 
     # newsletter
-    - key: blocks.newsletter.title
+    - key: blocks.newsletter
       t: Stay Tuned
     - key: blocks.newsletter.description
       t: |
@@ -316,7 +316,7 @@ translations:
       t: Proszę o Powiadomienie
 
     # features_overview
-    - key: blocks.features_overview.title
+    - key: blocks.features_overview
       t: Przegląd Użytkowania
     - key: blocks.features_overview.description
       t: |
@@ -340,7 +340,7 @@ translations:
           Możesz skopiować i wkleić to zapytanie do naszego <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">publicznego API GraphQL</a>.
 
     # Tools usage variations
-    - key: blocks.tools_usage_variations.title
+    - key: blocks.tools_usage_variations
       t: Różnice w użytkowaniu
     - key: blocks.tools_usage_variations.description
       t: |
@@ -352,7 +352,7 @@ translations:
           Należy pamiętać, że narzędzia o niższym ogólnym użytkowaniu mają z reguły większe zróżnicowane.
 
     # Recommended Resources
-    - key: blocks.recommended_resources.title
+    - key: blocks.recommended_resources
       t: Polecane Źródła
 
     ###########################################################################
