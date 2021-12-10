@@ -305,7 +305,7 @@ translations:
           W skali od jednego (bardzo niezadowolony) do pięciu (bardzo zadowolony), jak bardzo zadowoleni z obecnego ogólnego stanu tej kategorii są programiści?
 
     # newsletter
-    - key: blocks.newsletter
+    - key: blocks.newsletter.title
       t: Stay Tuned
     - key: blocks.newsletter.description
       t: |
