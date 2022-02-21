@@ -24,9 +24,14 @@ translations:
     - key: general.survey_read_only
       t: >
           Przeglądasz aktualnie ankietę w trybie tylko do odczytu.
+    - key: general.survey_preview
+      t: >
+          Ta ankieta jest w trybie podglądu. Pytania mogą ulec zmianie, a wszystkie wprowadzone dane będą usunięte, gdy rozpocznie się właściwa ankieta. 
     - key: general.survey_read_only_back
       t: >
           <a href="{link}">Wróć</a> do głównej strony ankiety, aby rozpocząć lub wnowić sesję.
+    - key: general.take_survey
+      t: Weź udział w ankiecie {name}
 
     # surveys
     - key: general.open_surveys
@@ -35,6 +40,8 @@ translations:
       t: Żadne ankiety nie są obecnie otwarte.
     - key: general.closed_surveys
       t: Zamknięte ankiety
+    - key: general.no_closed_surveys
+      t: Brak zamkniętych ankiet.
     - key: general.no_open_surveys
       t: Żadne ankiety nie są obecnie zamknięte.
     - key: general.preview_surveys
@@ -51,6 +58,10 @@ translations:
       t: Podgląd ankiety »
     - key: general.finish_survey
       t: Zakończ ankietę »
+    - key: general.next_section
+      t: Kolejna sekcja
+    - key: general.prev_section
+      t: Poprzednia sekcja
     - key: general.survey_closed
       t: Ta ankieta jest obecnie zamknięta.
     - key: general.survey_results
@@ -63,6 +74,35 @@ translations:
       t: Tłumacze
     - key: general.translation_help
       t: Pomoc w tłumaczeniu
+    - key: general.newly_added
+      t: Nowo dodane
+    - key: general.new
+      t: Nowa
+
+    # credits
+    - key: credits.thanks
+      t: Podziękowania
+    - key: credits.accessibility
+      t: Doradztwo w temacie dostępności
+    - key: credits.survey_design
+      t: Projekt ankiety
+   - key: credits.logo_design
+      t: Projekt Logo
+    - key: credits.mobile_testing
+      t: Testy wersji mobilnej
+    - key: credits.data_visualizations
+      t: Wizualizacja danych
+    - key: credits.repo_architecture
+      t: Architektura repozytorum
+    - key: credits.code_refactoring
+      t: Refaktoryzacja kodu
+    - key: credits.data_processing
+      t: Przetworzenie danych
+
+    # support
+    - key: general.support_from
+      t: Z pomocą
+
 
     # footer
     - key: general.privacy_policy
@@ -80,6 +120,14 @@ translations:
           Uwaga: wszystkie pytania są opcjonalne, wypełnienie 100% nie jest wymagane.
     - key: general.data_is_saved
       t: Twoje dane są zapisywanie przy każdym przejściu do poprzedniej lub kolejnej sekcji.
+    - key: general.close_nav
+      t: Zamknij menu
+    - key: general.open_nav
+      t: Otwórz menu
+    - key: general.more_actions
+      t: Więcej
+    - key: general.skip_to_content
+      t: Pomiń
 
     # thanks
     - key: general.back
@@ -117,6 +165,8 @@ translations:
     # forms
     - key: forms.select_option
       t: Wybierz opcję
+    - key: forms.clear_field
+      t: Wyczyść
 
     # partners
     - key: partners.our_partners
@@ -176,6 +226,8 @@ translations:
     - key: sections.other_tools.description
       t: W przypadku tych narzędzi i technologii, zaznacz po prostu te, z których korzystasz regularnie.
 
+    - key: sections.report.title
+      t: Raport trendu
     ###########################################################################
     # Options
     ###########################################################################
@@ -287,6 +339,42 @@ translations:
       t: Zgadzam się
     - key: options.opinions.4
       t: Bardzo się zgadzam
+
+    # age
+    - key: options.age.range_less_than_10
+      t: Poniżej 10 lat
+    - key: options.age.range_10_18
+      t: Pomiędzy 10 a 18 lat
+    - key: options.age.range_18_24
+      t: Pomiędzy 18 a 24 lat
+    - key: options.age.range_25_34
+      t: Pomiędzy 24 a 34 lat
+    - key: options.age.range_35_44
+      t: Pomiędzy 35 a 44 lat
+    - key: options.age.range_45_54
+      t: Pomiędzy 45 a 54 lat
+    - key: options.age.range_55_64
+      t: Pomiędzy 55 a 64 lat
+    - key: options.age.range_more_than_65
+      t: 65 lat lub więcej
+
+    # age (short versions)
+    - key: options.age.range_less_than_10.short
+      t: '<10'
+    - key: options.age.range_10_18.short
+      t: 10-18
+    - key: options.age.range_18_24.short
+      t: 18-24
+    - key: options.age.range_25_34.short
+      t: 24-34
+    - key: options.age.range_35_44.short
+      t: 35-44
+    - key: options.age.range_45_54.short
+      t: 45-54
+    - key: options.age.range_55_64.short
+      t: 55-64
+    - key: options.age.range_more_than_65.short
+      t: '>65'
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
@@ -460,14 +548,35 @@ translations:
       t: Mężczyzna
     - key: options.gender.non_binary
       t: Płeć niebinarna/trzecia
+    - key: options.gender.questioning
+      t: Questioning
     - key: options.gender.prefer_not_to_say
       t: Wolę nie odpowiadać
+    - key: options.gender.not_listed
+      t: Nie ma na liście
+
+    # Gender (short)
+
+    - key: options.gender.female.short
+      t: Kobieta
+    - key: options.gender.male.short
+      t: Mężczyzna
+    - key: options.gender.non_binary.short
+      t: Niebinarna/trzecia
+    - key: options.gender.questioning.short
+      t: Questioning
+    - key: options.gender.prefer_not_to_say.short
+      t: Wolę nie odpowiadać
+    - key: options.gender.not_listed.short
+      t: Nie ma na liście
 
     # Race & Ethnicity
 
     - key: options.race_ethnicity.white_european
       t: Biała lub pochodzenia europejskiego
     - key: options.race_ethnicity.south_asian
+      t: Południowoazjatycka
+    - key: options.race_ethnicity.south_east_asian
       t: Południowoazjatycka
     - key: options.race_ethnicity.hispanic_latin
       t: Latynoska
@@ -483,10 +592,74 @@ translations:
       t: Biracial
     - key: options.race_ethnicity.native_american_islander_australian
       t: Rdzenni mieszkańcy Ameryki, wysp pacyfiku lub Australii
+    - key: options.race_ethnicity.not_listed
+      t: Nie ma na liście
+
+
+    # Race & Ethnicity (short)
+
+    - key: options.race_ethnicity.white_european.short
+      t: Biała
+    - key: options.race_ethnicity.south_asian.short
+      t: Południowoazjatycka 
+    - key: options.race_ethnicity.south_east_asian.short
+      t: Południowoazjatycka
+    - key: options.race_ethnicity.hispanic_latin.short
+      t: Latynoska
+    - key: options.race_ethnicity.east_asian.short
+      t: Wschodnioazjatycka
+    - key: options.race_ethnicity.middle_eastern.short
+      t: Bliskowschodnia
+    - key: options.race_ethnicity.black_african.short
+      t: Czarnoskóra
+    - key: options.race_ethnicity.multiracial.short
+      t: Multiracial
+    - key: options.race_ethnicity.biracial.short
+      t: Biracial
+    - key: options.race_ethnicity.native_american_islander_australian.short
+      t: Native American/Pacific Islander/Indigenous Australian
+    - key: options.race_ethnicity.not_listed.short
+      t: Nie ma na liście
+
+    # Disability Status
+    - key: options.disability_status.visual_impairments
+      t: >
+        Wady wzroku (takie jak: ślepota, daltonizm, itd.)
+    - key: options.disability_status.hearing_impairments
+      t: >
+        Wady słuchu (such as: głuchoniemość, szum, itd.)
+    - key: options.disability_status.mobility_impairments
+      t: >
+        Upośledzenie ruchowe (such as: artretyzm, zespół cieśni kanału nadgarstka, itd.)
+    - key: options.disability_status.cognitive_impairments
+      t: >
+        Zaburzenia funkcji poznawczych (such as: niepokój, dysleksja, itd.)
+    - key: options.disability_status.not_listed
+      t: >
+        Nie ma na liście
+
+    # Disability Status (short)
+    - key: options.disability_status.visual_impairments
+      t: >
+        Wady wzroku
+    - key: options.disability_status.hearing_impairments
+      t: >
+        Wady słuchu
+    - key: options.disability_status.mobility_impairments
+      t: >
+        Upośledzenie ruchowe
+    - key: options.disability_status.cognitive_impairments
+      t: >
+        Zaburzenia funkcji poznawczych
+    - key: options.disability_status.not_listed
+      t: >
+        Nie ma na liście
 
     # Form Factors
     - key: options.form_factors.desktop
       t: Komputer stacjonarny
+    - key: options.form_factors.keyboard_only
+      t: Komputer stacjonarny tylko z klawiaturą
     - key: options.form_factors.smartphone
       t: Smartfon
     - key: options.form_factors.feature_phone
@@ -503,6 +676,10 @@ translations:
       t: Czytnik ekranu
     - key: options.form_factors.print
       t: Druk
+    - key: options.form_factors.testing_tools
+      t: Oprogramowanie testujące (Axe, Lighthouse, itd.)
+    - key: options.form_factors.vision_simulator
+      t: Symulator zmienionej wizji (daltonizm, itd.)
 
     # Industry Sector
     - key: options.industry_sector.ecommerce
@@ -529,6 +706,33 @@ translations:
       t: Rozrywka
     - key: options.industry_sector.consulting
       t: Usługi Doracze
+    - key: options.industry_sector.travel
+      t: Turystyka
+    - key: options.industry_sector.insurance
+      t: Ubezpieczenia
+    - key: options.industry_sector.logistics
+      t: Logistyka
+    - key: options.industry_sector.energy
+      t: Branża energetyczna
+    - key: options.industry_sector.telecommunications
+      t: Telekomunikacja
+    - key: options.industry_sector.student
+      t: Student
+    - key: options.industry_sector.hospitality
+      t: Branża hotelarska
+    - key: options.industry_sector.cyber_security
+      t: Cyberbezpieczeństwo
+    - key: options.industry_sector.construction
+      t: Budownictwo
+    - key: options.industry_sector.automotive
+      t: Branża motoryzacyjna
+    - key: options.industry_sector.agriculture
+      t: Branża agroturystyczna
+    - key: options.industry_sector.transport
+      t: Branża transportowa
+    - key: options.industry_sector.manufacturing
+      t: Branża produkcyjna
+
 
     ###########################################################################
     # Tools

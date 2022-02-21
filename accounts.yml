@@ -54,6 +54,10 @@ translations:
       t: Załóż konto
     - key: accounts.sign_in
       t: Zaloguj się
+    - key: accounts.switch_to_sign_up
+      t: Nie masz konta? Zarejestruj się
+    - key: accounts.switch_to_sign_in
+      t: Masz już konto? Zaloguj się
     - key: accounts.sign_out
       t: Wyloguj się
     - key: accounts.cancel
