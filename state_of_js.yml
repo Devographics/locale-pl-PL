@@ -100,31 +100,16 @@ translations:
     # syntax
     - key: features.destructuring
       t: Destrukturyzacja
-    - key: features.destructuring.description
-      t: 'Przykład: `const { foo } = bar`'
     - key: features.spread_operator
       t: Spread operator
-    - key: features.spread_operator.description
-      t: 'Przykład: `[...array1, ...array2]`'
     - key: features.arrow_functions
       t: Funkcje Strzałkowe
-    - key: features.arrow_functions.description
-      t: 'Przykład: `const foo = () => {}`'
     - key: features.nullish_coalescing
       t: Nullish Coalescing
-    - key: features.nullish_coalescing.description
-      t: >
-          Przykład: `const foo = 0 ?? 42`
     - key: features.optional_chaining
       t: Optional Chaining
-    - key: features.optional_chaining.description
-      t: >
-          Przykład: `const dogName = adventurer.dog?.name`
     - key: features.private_fields
       t: Private Fields
-    - key: features.private_fields.description
-      t: >
-          Przykład: `class ClassWithPrivateField { #privateField }`
 
     # language
     - key: features.proxies
@@ -140,9 +125,6 @@ translations:
           W najprostszej formie dekorator to po prostu sposób na owinięcie jednego kawałka kodu drugim - dosłownie „dekorowanie” go.
     - key: features.dynamic_import
       t: Import Dynamiczny
-    - key: features.dynamic_import.description
-      t: >
-          Przykład: <code>await import('/modules/my-module.js')</code>
 
     # data structures
     - key: features.maps
