@@ -50,7 +50,7 @@ translations:
     - key: general.preview_survey
       t: Podgląd ankiety »
     - key: general.finish_survey
-      t: Zakończ ankietę »
+      t: Zakończ ankietę
     - key: general.survey_closed
       t: Ta ankieta jest obecnie zamknięta.
     - key: general.survey_results
