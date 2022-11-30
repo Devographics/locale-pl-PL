@@ -12,7 +12,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.js2020
       t: |
 
             <span class="first-letter">C</span>hoć rok 2020 był kiepski, JavaScript jako całość wciąż jakoś ruszał się do przodu. Podczas gdy sam język cały czas się rozwija, dzięki funkcjom takim jak Optional Chaining i Nullish Coalescing, powszechna adopcja TypeScript-u podnosi poprzeczkę na całkiem nowy poziom, popularyzując static typing (podczas gdy nie-Javascriptowi developerzy całego świata śmieją się, lub płaczą, po cichu). 
