@@ -684,7 +684,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Blogi i Magazyny
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: Jakie blogi/magazyny/itp. czytasz?
   - key: resources.blogs_news_magazines.others
     t: Inne Blogi i Magazyny
@@ -694,7 +694,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: Strony i Kursy
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: Z jakich stron/kursów/itp. korzystasz?
   - key: resources.sites_courses.others
     t: Inne Stronyi Kursy
@@ -704,7 +704,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: Podcasty
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: Jakich podcastów związanych z programowaniem słuchasz?
   - key: resources.podcasts.others
     t: Inne Podcasty
