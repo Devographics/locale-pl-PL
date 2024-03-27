@@ -551,43 +551,43 @@ translations:
   # years of experience
   - key: user_info.years_of_experience
     t: Lata Doświadczenia
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: Jak długo pracujesz lub uczysz się w tej dziedzinie.
 
   # company size
   - key: user_info.company_size
     t: Rozmiar Firmy
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: Jaki jest rozmiar twojej firmy.
 
   # salary ranges
   - key: user_info.yearly_salary
     t: Roczne Wynagrodzenie
-  - key: user_info.yearly_salary.description
+  - key: user_info.yearly_salary.question
     t: w USD.
 
   # job title
   - key: user_info.job_title
     t: Nazwa Stanowiska
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: Jak przedstawiasz się na imprezach?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: Biegłość w JavaScript
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: Jak biegły jesteś w JavaScript?
 
   # css proficiency
   - key: user_info.css_proficiency
     t: Biegłość w CSS
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: Jak biegły jesteś w CSS?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: Biegłość Back-end
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: Jak biegły jesteś w programowaniu back-end?
 
   # gender
@@ -612,7 +612,7 @@ translations:
       Dopuszczamy w przyszłości użycie nazw użytkowników GitHub, aby przyjrzeć się repozytoriom i porównać dostępne publicznie informacje.
   - key: user_info.industry_sector
     t: Sektor Przemysłu
-  - key: user_info.industry_sector.description
+  - key: user_info.industry_sector.question
     t: W jakim sektorze(-rach) przemysłu pracujesz?
   - key: user_info.industry_sector.others
     t: Inne Sektory Przemysłu
