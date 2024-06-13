@@ -625,7 +625,7 @@ translations:
 
   - key: tools_others.libraries
     t: Biblioteki
-  - key: tools_others.libraries.description
+  - key: tools_others.libraries.question
     t: Z jakich bibliotek regularnie korzystasz?
   - key: tools_others.libraries.others
     t: Inne Biblioteki
@@ -634,7 +634,7 @@ translations:
 
   - key: tools_others.text_editors
     t: Edytory Tekstu
-  - key: tools_others.text_editors.description
+  - key: tools_others.text_editors.question
     t: Z jakich edytorów tekstu regularnie korzystasz?
   - key: tools_others.text_editors.others
     t: Inne Edytory Tekstu
@@ -643,7 +643,7 @@ translations:
 
   - key: tools_others.utilities
     t: Narzędzia
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: Z jakich narzędzi regularnie korzystasz?
   - key: tools_others.utilities.others
     t: Inne Narzędzia
@@ -652,7 +652,7 @@ translations:
 
   - key: tools_others.browsers
     t: Przeglądarki
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: W jakich przeglądarkach pracujesz głównie podczas początkowego programowania?
   - key: tools_others.browsers.others
     t: Inne Przeglądarki
@@ -661,7 +661,7 @@ translations:
 
   - key: tools_others.build_tools
     t: Narzędzia Kompilacji
-  - key: tools_others.build_tools.description
+  - key: tools_others.build_tools.question
     t: Z jakich narzędzi kompilacji korzystasz?
   - key: tools_others.build_tools.others
     t: Inne Narzędzia Kompilacji
@@ -670,7 +670,7 @@ translations:
 
   - key: tools_others.non_js_languages
     t: Języki Inne Niż JavaScript
-  - key: tools_others.non_js_languages.description
+  - key: tools_others.non_js_languages.question
     t: Z jakich innych języków programowania korzystasz?
   - key: tools_others.non_js_languages.others
     t: Inne Języki
