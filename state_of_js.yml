@@ -84,9 +84,9 @@ translations:
   - key: sections.build_tools.description
     t: Kompilowanie i bundlowanie kodu
 
-  - key: sections.tools_others.title
+  - key: sections.tools.title
     t: Inne Narzędzia
-  - key: sections.tools_others.description
+  - key: sections.tools.description
     t: Inne narzędzia JavaScript.
 
   ###########################################################################
@@ -188,22 +188,22 @@ translations:
   # Other Tools
   ###########################################################################
 
-  - key: tools_others.runtimes
+  - key: tools.runtimes
     t: Runtime-y JavaScript
-  - key: tools_others.runtimes.question
+  - key: tools.runtimes.question
     t: Z jakich silników/runtime-ów/środowisk wykonawczych regularnie korzystasz?
-  - key: tools_others.runtimes.others
+  - key: tools.runtimes.others
     t: Inne Runtime-y
-  - key: tools_others.runtimes.others.description
+  - key: tools.runtimes.others.description
     t: Inne odpowiedzi (wolne pole).
 
-  - key: tools_others.package_registries
+  - key: tools.package_registries
     t: Rejestry Pakietów
-  - key: tools_others.package_registries.question
+  - key: tools.package_registries.question
     t: Z których rejestrów pakietów regularnie pobierasz pakiety?
-  - key: tools_others.package_registries.others
+  - key: tools.package_registries.others
     t: Inne Rejestry Pakietów
-  - key: tools_others.package_registries.others.description
+  - key: tools.package_registries.others.description
     t: Inne odpowiedzi (wolne pole).
 
   ###########################################################################
